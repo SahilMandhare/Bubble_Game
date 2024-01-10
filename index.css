@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body,html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 5% 15%; */
+  background-color: rgb(126, 204, 128);
+}
+
+.main {
+  height: 80%;
+  width: 80%;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #ffffff;
+  border-radius: 20px 20px 0 0;
+}
+
+.svt {
+    padding: 3% 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(7, 110, 9);
+    border-radius: 20px 20px 0 0;
+}
+
+.box {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.svtsub {
+  padding: 10px 15px;
+  background: rgb(101, 175, 101);
+  /* box-shadow: 10px 5px 5px rgb(13, 254, 0); */
+  border-radius: 10px 10px 10px 10px;
+}
+
+.bubchart {
+  height: inherit;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  background: #ffffff;
+}
+
+.bubble {
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #876464;
+  border-radius: 50%;
+}
+
+.bubble:hover{
+
+  background: rgb(32, 111, 33);
+  cursor: pointer;
+}
